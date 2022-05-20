@@ -29,11 +29,25 @@
             <img class="logo" alt="MyLikita logo" src="img/logo.png" />
         </a>
 
-        <nav class="main-nav">
-            <ul class="main-nav-list">
-
-                <li><a class="main-nav-link" href="#pricing">Login</a></li>
-                <li><a class="main-nav-link nav-cta" href="#cta">Sign Up</a></li>
+        <span class="overlay" id="overlay"></span>
+        <nav class=" main-nav" id="navbar">
+            <ul class="menu main-nav-list">
+                <li class=" menu-item menu-item-child">
+                    <a href="#" data-toggle="sub-menu">Products<i class="expand"></i></a>
+                    <ul class="sub-menu">
+                        <li class="menu-item"><a href="#">For Hospital</a></li>
+                        <li class="menu-item"><a href="#">For Patient</a></li>
+                        <li class="menu-item"><a href="#">For Pharmacy</a></li>
+                        <li class="menu-item"><a href="#">For Laboratory</a></li>
+                        <li class="menu-item"><a href="#">Telemedicine</a></li>
+                    </ul>
+                </li>
+                <li><a class="main-nav-link" href="#">About Us</a></li>
+                <li>
+                    <a class="main-nav-link" href="#">Contact us</a>
+                </li>
+                <li><a class="main-nav-link" href="#">Login</a></li>
+                <li><a class="main-nav-link nav-cta" href="#">Sign Up</a></li>
             </ul>
         </nav>
 
@@ -63,21 +77,7 @@
                 </div>
             </div>
         </section>
-        <!-- <section class="section-featured">
 
-            <div class="center">
-                <h2 class="heading-featured-in">As featured in</h2>
-            </div>
-            <div>
-                <div class="logos">
-                    <img src="img/Deutsche_Welle_logo.png" alt="DW logo" />
-                    <img src="img/nitda.png" alt="Nitda logo" />
-                    <img class="logos__bigger" src="img/arewa_prev_ui.png" alt="Arewa 24 logo" />
-
-                </div>
-
-            </div>
-        </section> -->
         <section class="section-how" id="how">
             <div class="container">
 
@@ -123,14 +123,49 @@
                     <h3 class="heading-tertiary">Your Records are safe</h3>
                     <p class="step-description">
 
-                        Store your funds in your wallet so that you can make payment without leaving the app. Your Health status are combined with your Health record in all the Hospitals you have been.
+                        All patient data are secured stored on a blockchain network. Your Health status are combined with your Health record in all the Hospitals you have been.
                     </p>
                 </div>
                 <div class="step-img-box">
-                    <img src="img/blockchain_healthcare_2_prev_ui.png" class="step-img" alt="iPhone app
+                    <img src="img/blockchain_healthcare_2_prev_ui.svg" class="step-img" alt="iPhone app
             delivery screen" />
                 </div>
             </div>
+        </section>
+        <section class="section" id="section--2">
+            <div class="container">
+
+                <span class="subheading">Services</span>
+                <h2 class="heading-secondary">
+                    Services that aid better patient communication
+                </h2>
+            </div>
+            <div class="container grid grid--3-cols">
+
+                <div class="feature">
+                    <ion-icon class="feature-icon" name="videocam-sharp"></ion-icon>
+                    <p class="feature-title">Video Chat Support</p>
+                    <p class="feature-text">
+                        Real-time video and audio support to aid communication between Doctors and Patient.
+                    </p>
+                </div>
+                <div class="feature">
+                    <ion-icon class="feature-icon" name="briefcase-sharp"></ion-icon>
+                    <p class="feature-title">Hospital Management</p>
+                    <p class="feature-text">
+                        Manage patient hospital, clinical and other related data in a timely, effective and efficient manner</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-iconz">
+                        <img class="feature-icons" src="/img/near-protocol-near-seeklogo.com.svg"></img>
+                    </div>
+                    <p class="feature-title">Crypto Wallet (Near)</p>
+                    <p class="feature-text"> With Near Token, you can now fund your wallet and enjoy limitless medical services
+                    </p>
+                </div>
+
+            </div>
+
         </section>
 </body>
 
