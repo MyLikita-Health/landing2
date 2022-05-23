@@ -38,7 +38,7 @@
     
     .main-nav-link:hover,
     .main-nav-link:active {
-        text-shadow: 0 5px 5px #458FF6;
+        color: #458FF6;
     }
     
     .main-nav-link.nav-cta:link,
@@ -269,7 +269,7 @@
     }
     
     .header .menu>.menu-item:hover>a {
-        text-shadow: 0 5px 5px #458FF6;
+        color: #458FF6;
     }
     
     .header .menu>.menu-item:hover>a .expand::before,
@@ -283,7 +283,7 @@
     }
     
     .header .menu>.menu-item>.sub-menu>.menu-item>a:hover {
-        text-shadow: 0 5px 5px #458FF6;
+        color: #458FF6;
     }
     
     .header .menu>.menu-item>.sub-menu {
