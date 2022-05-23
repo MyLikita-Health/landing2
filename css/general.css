@@ -23,7 +23,7 @@ Large: 1.8
 
 --- 02 COLORS
 
-- Primary: #047397
+- Primary:#458FF6
 - Tints:
 #edf8fa
 #fae5d3
@@ -202,12 +202,30 @@ grid-template-columns: repeat(5, 1fr);
 }
 
 .subheading {
-    display: block;
+    display: inline-block;
     font-size: 1.6rem;
     font-weight: 700;
-    color: #047397;
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
     text-transform: uppercase;
     letter-spacing: 0.75px;
+    position: relative;
+    margin-bottom: 4rem;
+}
+
+.subheading::before {
+    content: '';
+    height: 2px;
+    width: 10%;
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    position: absolute;
+    margin: auto;
+    bottom: -5px;
+    left: 0;
+    right: 0;
+    bottom: -20px;
 }
 
 .subheading-box {
@@ -235,17 +253,18 @@ grid-template-columns: repeat(5, 1fr);
     /* Put transition on original "state" */
     /* transition: background-color 0.3s; */
     transition: all 0.3s;
+    border-radius: 55px;
 }
 
 .btn--full:link,
 .btn--full:visited {
-    background-color: #047397;
+    background-color: #458FF6;
     color: #fff;
 }
 
 .btn--full:hover,
 .btn--full:active {
-    box-shadow: 0 5px 15px #047397;
+    box-shadow: 0 5px 15px #458FF6;
 }
 
 .btn--outline:link,
@@ -308,7 +327,7 @@ grid-template-columns: repeat(5, 1fr);
 .list-icon {
     width: 3rem;
     height: 3rem;
-    color: #047397;
+    color: #458FF6;
 }
 
 
@@ -341,8 +360,4 @@ strong {
     border-radius: 10rem;
     cursor: pointer;
     transition: all 0.3s;
-}
-
-.btn:hover {
-    /* background-color: var(--color-primary-darker); */
 }
