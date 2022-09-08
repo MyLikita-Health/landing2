@@ -263,6 +263,12 @@
         height: 32rem;
         grid-row: 1;
     }
+    .bottomm{
+        display: block;
+    }
+    .botn{
+        margin-top: 2rem;
+    }
 }
 
 
