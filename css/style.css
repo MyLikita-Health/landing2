@@ -504,6 +504,14 @@
         padding: 5.4rem 3.2rem;
     }
     
+     .features {
+        background: #FFFFFF;
+        /* drop shadow */
+        box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+        border-radius: 20px;
+        padding: 2.4rem 2.2rem;
+    }
+
     .feature-icon {
         color: #047397;
         height: 3.2rem;
