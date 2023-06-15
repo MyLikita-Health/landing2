@@ -59,300 +59,299 @@ Medium: 11px
 
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap");
 :root {
-    --color-black: hsl(0, 0%, 10%);
-    --color-white: hsl(0, 0%, 100%);
-    --color-darken: hsl(0, 0%, 20%);
-    --shadow-small: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
-    --shadow-medium: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-    --shadow-large: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --color-black: hsl(0, 0%, 10%);
+  --color-white: hsl(0, 0%, 100%);
+  --color-darken: hsl(0, 0%, 20%);
+  --shadow-small: 0 1px 3px 0 rgba(0, 0, 0, 0.1),
+    0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  --shadow-medium: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-large: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
 
 *,
 *::before,
 *::after {
-    padding: 0;
-    margin: 0;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    list-style: none;
-    list-style-type: none;
-    text-decoration: none;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-rendering: optimizeLegibility;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  list-style: none;
+  list-style-type: none;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
-
+main {
+  margin-top: 9.6rem;
+}
 body {
-    font-family: "Mulish", sans-serif;
-    line-height: 1;
-    font-weight: 400;
-    color: #555;
-    /* Only works if there is nothing absolutely positioned in relation to body */
-    overflow-x: hidden;
+  font-family: "Mulish", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+  /* Only works if there is nothing absolutely positioned in relation to body */
+  overflow-x: hidden;
 }
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 html {
-    font-size: 62.5%;
-    overflow-x: hidden;
+  font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 body {
-    font-family: "Mulish", sans-serif;
-    line-height: 1;
-    font-weight: 400;
-    color: #555;
-    /* Only works if there is nothing absolutely positioned in relation to body */
-    overflow-x: hidden;
+  font-family: "Mulish", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+  /* Only works if there is nothing absolutely positioned in relation to body */
+  overflow-x: hidden;
 }
 
 section {
-    margin-bottom: 9.6rem;
+  margin-bottom: 9.6rem;
 }
-
 
 /**************************/
 
-
 /* GENERAL REUSABLE COMPONENTS */
-
 
 /**************************/
 
 .container {
-    /* 1140px */
-    max-width: 120rem;
-    padding: 0 3.2rem;
-    margin: 0 auto;
+  /* 1140px */
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
 }
 
 .grid {
-    display: grid;
-    column-gap: 6.4rem;
-    row-gap: 9.6rem;
-    /* margin-bottom: 9.6rem; */
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
+  /* margin-bottom: 9.6rem; */
 }
-
 
 /* .grid:last-child {
 margin-bottom: 0;
 } */
 
 .grid:not(:last-child) {
-    margin-bottom: 9.6rem;
+  margin-bottom: 9.6rem;
 }
 
 .grid--2-cols {
-    grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .grid--3-cols {
-    grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .grid--4-cols {
-    grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 1fr);
 }
-
 
 /* .grid--5-cols {
 grid-template-columns: repeat(5, 1fr);
 } */
 
 .grid--center-v {
-    align-items: center;
+  align-items: center;
 }
 
 .heading-primary,
 .heading-secondary,
 .heading-tertiary {
-    font-weight: 700;
-    color: #333;
-    /* color: #45260a; */
-    /* color: #343a40; */
-    letter-spacing: -0.5px;
+  font-weight: 700;
+  color: #333;
+  /* color: #45260a; */
+  /* color: #343a40; */
+  letter-spacing: -0.5px;
 }
 
 .heading-primary {
-    font-size: 5.2rem;
-    line-height: 1.05;
-    margin-bottom: 3.2rem;
+  font-size: 5.2rem;
+  line-height: 1.05;
+  margin-bottom: 3.2rem;
 }
 
 .heading-secondary {
-    font-size: 4.4rem;
-    line-height: 1.2;
-    margin-bottom: 9.6rem;
+  font-size: 4.4rem;
+  line-height: 1.2;
+  margin-bottom: 9.6rem;
 }
 
 .heading-tertiary {
-    font-size: 3rem;
-    line-height: 1.2;
-    margin-bottom: 3.2rem;
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;
 }
 
 .subheading {
-    display: inline-block;
-    font-size: 1.6rem;
-    font-weight: 700;
-    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    text-transform: uppercase;
-    letter-spacing: 0.75px;
-    position: relative;
-    margin-bottom: 4rem;
+  display: inline-block;
+  font-size: 1.6rem;
+  font-weight: 700;
+  background: linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+  position: relative;
+  margin-bottom: 4rem;
 }
 
 .subheading::before {
-    content: '';
-    height: 2px;
-    width: 10%;
-    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
-    position: absolute;
-    margin: auto;
-    bottom: -5px;
-    left: 0;
-    right: 0;
-    bottom: -20px;
+  content: "";
+  height: 2px;
+  width: 10%;
+  background: linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
+  position: absolute;
+  margin: auto;
+  bottom: -5px;
+  left: 0;
+  right: 0;
+  bottom: -20px;
 }
 
 .subheading-box {
-    border: 1px solid #047397;
-    border-radius: 50px;
-    padding: 1.6rem;
-    display: inline-block;
-    text-align: center;
-    margin-bottom: 1.6rem;
+  border: 1px solid #047397;
+  border-radius: 50px;
+  padding: 1.6rem;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 1.6rem;
 }
 
 .btn,
 .btn:link,
 .btn:visited {
-    display: inline-block;
-    text-decoration: none;
-    font-size: 2rem;
-    font-weight: 600;
-    padding: 1.6rem 3.2rem;
-    border-radius: 9px;
-    /* Only necessary for .btn */
-    border: none;
-    cursor: pointer;
-    font-family: inherit;
-    /* Put transition on original "state" */
-    /* transition: background-color 0.3s; */
-    transition: all 0.3s;
-    border-radius: 55px;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 1.6rem 3.2rem;
+  border-radius: 9px;
+  /* Only necessary for .btn */
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  /* Put transition on original "state" */
+  /* transition: background-color 0.3s; */
+  transition: all 0.3s;
+  border-radius: 55px;
 }
 
 .btn--full:link,
 .btn--full:visited {
-    background-color: #458FF6;
-    color: #fff;
+  background-color: #458ff6;
+  color: #fff;
 }
 
 .btn--full:hover,
 .btn--full:active {
-    box-shadow: 0 5px 15px #458FF6;
+  box-shadow: 0 5px 15px #458ff6;
 }
 
 .btn--outline:link,
 .btn--outline:visited {
-    /* background-color: #fff; */
-    color: #555;
+  /* background-color: #fff; */
+  color: #555;
 }
 
 .btn--outline:hover,
 .btn--outline:active {
-    background-color: #fdf2e9;
-    /* border: 3px solid #fff; */
-    /* Trick to add border inside */
-    box-shadow: inset 0 0 0 3px #fff;
+  background-color: #fdf2e9;
+  /* border: 3px solid #fff; */
+  /* Trick to add border inside */
+  box-shadow: inset 0 0 0 3px #fff;
 }
 
 .btn--form {
-    background-color: #45260a;
-    color: #fdf2e9;
-    align-self: end;
-    padding: 1.2rem;
+  background-color: #45260a;
+  color: #fdf2e9;
+  align-self: end;
+  padding: 1.2rem;
 }
 
 .btn--form:hover {
-    /* background-color: #fff; */
-    color: #555;
+  /* background-color: #fff; */
+  color: #555;
 }
 
 .link:link,
 .link:visited {
-    display: inline-block;
-    color: #047397;
-    text-decoration: none;
-    border-bottom: 1px solid currentColor;
-    padding-bottom: 2px;
-    transition: all 0.3s;
+  display: inline-block;
+  color: #047397;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 2px;
+  transition: all 0.3s;
 }
 
 .link:hover,
 .link:active {
-    color: #cf711f;
-    border-bottom: 1px solid transparent;
+  color: #cf711f;
+  border-bottom: 1px solid transparent;
 }
 
 .list {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    gap: 1.6rem;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
 }
 
 .list-item {
-    font-size: 1.8rem;
-    display: flex;
-    align-items: center;
-    gap: 1.6rem;
-    line-height: 1.2;
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  line-height: 1.2;
 }
 
 .list-icon {
-    width: 3rem;
-    height: 3rem;
-    color: #458FF6;
+  width: 3rem;
+  height: 3rem;
+  color: #458ff6;
 }
-
 
 /* HELPER/SETTINGS CLASSES */
 
 .margin-right-sm {
-    margin-right: 1.6rem !important;
+  margin-right: 1.6rem !important;
 }
 
 .margin-bottom-md {
-    margin-bottom: 4.8rem !important;
+  margin-bottom: 4.8rem !important;
 }
 
 .center-text {
-    text-align: center;
+  text-align: center;
 }
 
 strong {
-    font-weight: 500;
+  font-weight: 500;
 }
 
 .btn {
-    display: inline-block;
-    background-color: var(--color-primary);
-    font-size: 1.6rem;
-    font-family: inherit;
-    font-weight: 500;
-    border: none;
-    padding: 1.25rem 4.5rem;
-    border-radius: 10rem;
-    cursor: pointer;
-    transition: all 0.3s;
+  display: inline-block;
+  background-color: var(--color-primary);
+  font-size: 1.6rem;
+  font-family: inherit;
+  font-weight: 500;
+  border: none;
+  padding: 1.25rem 4.5rem;
+  border-radius: 10rem;
+  cursor: pointer;
+  transition: all 0.3s;
 }
