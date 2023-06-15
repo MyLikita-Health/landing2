@@ -236,12 +236,14 @@
 
 .header .menu > .menu-item {
   position: relative;
-  display: inline-block;
+
   margin: 0 0.75rem;
 }
 
 .header .menu > .menu-item > a {
-  display: block;
+  display: flex;
+  gap: 0.3rem;
+  align-items: center;
   /* font-family: inherit; */
   font-size: 1.8rem;
   font-weight: 500;
