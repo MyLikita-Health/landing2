@@ -355,3 +355,33 @@ strong {
   cursor: pointer;
   transition: all 0.3s;
 }
+
+.quote::after {
+  content: url("https://i.hizliresim.com/ODgyXA.png");
+  width: 40px;
+  height: 40px;
+  position: relative;
+  top: -20px;
+  left: 420px;
+  margin: 10px 0 0 20px;
+}
+
+.quote::before {
+  content: url("https://i.hizliresim.com/zMXJz4.png");
+  width: 40px;
+  height: 40px;
+  position: relative;
+  top: 25px;
+  left: -10px;
+}
+.quote_desc {
+  font-style: italic;
+  opacity: 0.8;
+  font-size: 22px;
+  text-align: center;
+  line-height: 25px;
+}
+.youtube_iframe {
+  width: 560px;
+  height: 315px;
+}

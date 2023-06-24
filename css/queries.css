@@ -269,6 +269,15 @@
     .botn{
         margin-top: 2rem;
     }
+   
+    .quote{
+        display: none;
+    }
+    .youtube_iframe {
+        width: 100%;
+        height: 315px;
+      }
+      
 }
 
 
