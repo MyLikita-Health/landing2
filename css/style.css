@@ -100,7 +100,7 @@
   box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
 }
 
-.sticky .section-hero {
+.sticky .men-hero {
   margin-top: 9.6rem;
 }
 /**************************/
@@ -189,7 +189,7 @@
 /**************************/
 
 .section-how {
-  padding: 9.6rem 0;
+  /* padding: 9.6rem 0; */
 }
 
 .step-number {
@@ -416,7 +416,7 @@
   }
 }
 
-@media only screen and (max-width: 59em) {
+  only screen and (max-width: 59em) {
   .header .overlay.active {
     display: block;
     opacity: 1;

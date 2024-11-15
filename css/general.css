@@ -85,7 +85,7 @@ Medium: 11px
   text-rendering: optimizeLegibility;
 }
 main {
-  margin-top: 9.6rem;
+  /* margin-top: 9.6rem; */
 }
 body {
   font-family: "Mulish", sans-serif;
@@ -117,7 +117,7 @@ body {
 }
 
 section {
-  margin-bottom: 9.6rem;
+  /* margin-bottom: 9.6rem; */
 }
 
 /**************************/
@@ -127,7 +127,7 @@ section {
 /**************************/
 
 /* .container { */
-  /* 1140px */
+  /*  */
   /* max-width: 120rem; */
   /* padding: 0 3.2rem; */
   /* margin: 0 auto; */
