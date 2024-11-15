@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"></script>
+
+    <script defer src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
+    <script defer src="js/script.js"></script>
+
+    <title>MyLikita &mdash; Virtual Healthcare for you</title>
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="logo" alt="MyLikita logo" src="img/logo.png" />
+        </a>
+
+        <span class="overlay" id="overlay"></span>
+        <nav class=" main-nav" id="navbar">
+            <ul class="menu main-nav-list">
+                <li><a class="main-nav-link" href="https://mylikitahealth.medium.com/">Blogs</a></li>
+                <li class=" menu-item menu-item-child">
+                    <a href="index.html" data-toggle="sub-menu">Products<i class="expand"></i></a>
+                    <ul class="sub-menu">
+                        <li class="menu-item"><a href="https://app.mylikita.clinic/signup/hospital">For Hospital</a></li>
+                        <li class="menu-item"><a href="https://app.mylikita.clinic/signup/patient">For Patient</a></li>
+                        <li class="menu-item"><a href="https://app.mylikita.clinic/signup/pharmacy">For Pharmacy</a></li>
+                        <li class="menu-item"><a href="https://app.mylikita.clinic/signup">For Laboratory</a></li>
+                        <li class="menu-item"><a href="https://app.mylikita.clinic/signup">Telemedicine</a></li>
+                    </ul>
+                </li>
+                <li><a class="main-nav-link" href="./about-us.html">About Us</a></li>
+                <li><a class="main-nav-link" href="./feature.html">Features</a></li>
+                <li>
+                    <a class="main-nav-link" href="#cta">Contact us</a>
+                </li>
+                 <li class=" menu-item menu-item-child">
+                    <a href="#" data-toggle="sub-menu" class="main-nav-link nav-cta" style="color: beige; padding-left: 10px; padding-right: 10px;">Register<i class="expand"></i></a>
+                    <ul class="sub-menu" style="padding: 10px;">
+                        <li><a class="main-nav-link" href="https://app.mylikita.clinic/auth" style="padding-bottom: 10px;">Login</a></li>
+                <li><a class="main-nav-link" href="https://app.mylikita.clinic/signup">Sign Up</a></li>
+            
+                    </ul>
+                </li>
+               </ul>
+        </nav>
+
+        <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+
+    <main>
+        <div style="justify-items: end;align-items: flex-end;justify-content: end; justify-self: end;margin-top: 100px">
+
+      <!-- <img src="./img/feature.jpg" style="width:10%; margin-top: 70px;"/> -->
+        </div>
+          <section class="section services" id="features" style="margin-top: 70px">
+             <div class="container">
+                <span class="subheading">Main Features and Capabilities</span>
+            </div>
+            <div class="container grid grid--3-cols">
+
+                <div class="features">
+                    <!-- <img src="img/consultation.svg" class="features--align"> -->
+                    <p class="feature-title">Appointment scheduling and management</p>
+                    <p class="feature-text">
+                    Allows patients to schedule appointments online and view their upcoming appointments. Also, it allows staff to manage appointment schedules and send appointment reminders to patients.
+                    </p>
+                </div>
+                  <div class="features">
+                    <!-- <img src="img/details.svg" alt="" class="features--align"> -->
+                    <p class="feature-title">Electronic health records (EHR) management</p>
+                    <p class="feature-text">
+                        Enables doctors and staff to access and update patient medical records in real-time, including medical history, medications, allergies, and lab results.</div>
+
+                <div class="features">
+                    <!-- <img src="img/details.svg" alt="" class="features--align"> -->
+                    <p class="feature-title">Clinical decision support</p>
+                    <p class="feature-text">
+                       Provides doctors and staff with access to up-to-date medical information, treatment guidelines, and drug information to support clinical decision-making. </div>
+                <div class="features">
+
+                    <!-- <img src="http://mylikita.clinic/img/near-protocol-near-seeklogo.com.svg" class="features--align"> -->
+
+                    <p class="feature-title">Medical billing and revenue management</p>
+                    <p class="feature-text"> Allows hospitals to track revenue and expenses, generate invoices, and manage insurance claims.</p>
+                </div>
+            <div class="features">
+
+                    <!-- <img src="http://mylikita.clinic/img/near-protocol-near-seeklogo.com.svg" class="features--align"> -->
+
+                    <p class="feature-title">Laboratory management</p>
+                    <p class="feature-text">Allows staff to manage lab orders, view lab results, and track lab inventory.</p>
+                </div>
+
+            <div class="features">
+
+                    <!-- <img src="http://mylikita.clinic/img/near-protocol-near-seeklogo.com.svg" class="features--align"> -->
+
+                    <p class="feature-title">Inventory management</p>
+                    <p class="feature-text">Allows hospitals to manage inventory, track stock levels, and generate purchase orders for new supplies.</p>
+                </div>
+                 <div class="features">
+
+                    <!-- <img src="http://mylikita.clinic/img/near-protocol-near-seeklogo.com.svg" class="features--align"> -->
+
+                    <p class="feature-title">Staff management</p>
+                    <p class="feature-text">Allows hospitals to manage staff schedules, track staff attendance, and manage staff training.</p>
+                </div>
+                  <div class="features">
+
+                    <!-- <img src="http://mylikita.clinic/img/near-protocol-near-seeklogo.com.svg" class="features--align"> -->
+
+                    <p class="feature-title">Patient tracking</p>
+                    <p class="feature-text">Provides real-time monitoring of patients' progress and treatment plans, and allows staff to view patient information and track patient outcomes.
+                    </p>
+                </div>
+
+                 <div class="features">
+                     <p class="feature-title">Data analytics and reporting</p>
+                    <p class="feature-text">Provides hospitals with real-time analytics and reporting on patient outcomes, hospital performance, and financial data.</p>
+                </div>
+
+                <div class="features">
+                     <p class="feature-title">Communication and messaging</p>
+                    <p class="feature-text">Allows staff to communicate and collaborate with patients and other staff members using secure messaging.</p>
+                </div>
+
+                 <div class="features">
+                     <p class="feature-title">Mobile app for patients</p>
+                    <p class="feature-text">A mobile app that allows patients to view their medical records, schedule appointments, and communicate with their healthcare providers.</p>
+                </div>
+
+                <div class="features">
+                     <p class="feature-title">Telemedicine</p>
+                    <p class="feature-text">Allows patients to consult with their healthcare providers remotely, through video conferencing, chat, and messaging.</p>
+                </div>
+
+                <div class="features">
+                     <p class="feature-title">Integration with other systems</p>
+                    <p class="feature-text">Allows hospitals to integrate the system with other systems, such as EHR systems, lab systems, and financial systems.</p>
+                </div>
+              </div>
+        </section>
+
+
+
+        <section class="section-cta" id="cta">
+            <div class="container">
+                <div class="cta">
+                    <div class="cta-text-box">
+                        <span class="subheading">Contact us</span>
+                        <h2 class="heading-secondary">We are glad to hear from you</h2>
+                        <p class="cta-text">
+                            Reach out to us to learn more about our promotions, offers, pricing and lots more.
+                        </p>
+
+                        <form class="cta-form" name="sign-up">
+                            <div>
+                                <label for="full-name">Full Name</label>
+                                <input id="full-name" type="text" placeholder="Tunde Thomas" name="full-name" required />
+                            </div>
+
+                            <div>
+                                <label for="email">Email address</label>
+                                <input id="email" type="email" placeholder="me@example.com" name="email" required />
+                            </div>
+
+                            <div>
+                                <label for="select-where">Message</label>
+                                <textarea id="message" type="message" placeholder="Send us a message" name="message" required></textarea>
+
+                            </div>
+
+                            <button class="btn btn--form btn--white">Submit</button>
+                        </form>
+                    </div>
+                    <div class="cta-img-box" role="img" aria-label="Woman"></div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <footer id="footer">
+            <div class="container ">
+                <div class="grid grid--footer ">
+                    <div class="logo-col">
+                        <a href="#logo" class="footer-logo ">
+                            <img class="logo" id="logos" alt="MyLikita logo " src="img/logo.png" />
+                        </a>
+                        <p class="copyright ">
+                            Hospital Management Solution and Healthcare Service Delivery for you
+                        </p>
+
+                        <div class="bottomm btn-app ">
+                            <a href="# " class="btn-app-1"><img src="img/download-app.svg" alt="App Store Button "></a>
+                            <a href='https://play.google.com/store/apps/details?id=com.inventria.bits&hl=en&gl=US&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1' class="btn-app-2"><img class="botn" src="img/get-it-on-google-play.png" alt="Play Store Button "></a>
+                        </div>
+                        <div class="enter final ">Copyright &copy; <span class="year ">2022</span> MyLikita &mdash; All rights reserved.</div>
+                    </div>
+
+                    <!-- <nav class="address-col center ">
+                        <p class="footer-heading " href="index.html ">Home </p>
+                        <ul class="footer-nav ">
+                            <li><a class="footer-link " href="aboutus.html ">About us </a></li>
+                            <li><a class="footer-link " href="services.html ">Services</a></li>
+                            <li><a class="footer-link " href="products.html ">products</a></li>
+                            <li><a class="footer-link " href="contact.html ">Contact us</a></li>
+                        </ul>
+                    </nav> -->
+                    <div class="address-col">
+                        <p class="footer-heading ">Address</p>
+                        <address class="contacts ">
+                    <p class="address ">
+                        Office: Floor 1, African Alliance Building, No 1 Sani Abacha Way, Kano, Nigeria
+                    </p>
+                    <address class="contacts ">
+                      <br/>
+                        <p> 
+   
+                          <a class="footer-link " href=" ">Phone: +2349039892072</a><br />
+                          <a class="footer-link " href=" "> Email: support@mylikita.clinic</a>
+                        </p>
+                      </address>
+
+                        </address>
+                    </div>
+                    <div class="address-col">
+                        <p class="footer-heading ">Contact us</p>
+
+                        <div>
+
+
+                            <ul class="social-links">
+                                <li>
+                                    <a class="footer-link" href="#">
+                                        <ion-icon class="social-icon " name="logo-instagram"></ion-icon>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="footer-link" href="#" target="_blank">
+                                        <ion-icon class="social-icon " name="logo-facebook"></ion-icon>
+                                    </a>
+                                </li>
+                                <!-- <li>
+                                    <a class="footer-link " href="# ">
+                                        <ion-icon class="social-icon " name="logo-twitter"></ion-icon>
+                                    </a>
+                                </li> -->
+                                <li>
+                                    <a class="footer-link" href="#" target="_blank">
+                                        <ion-icon class="social-icon " name="logo-linkedin"></ion-icon>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="footer-link" href="#" target="_blank">
+                                        <ion-icon class="social-icon " name="logo-youtube"></ion-icon>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul><br/>Socials: @MyLikita.clinic</ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+</body>
+
+</html>

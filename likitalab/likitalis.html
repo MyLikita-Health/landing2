@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"></script>
+
+    <script defer src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
+    <script defer src="js/script.js"></script>
+
+    <title>MyLikita &mdash; Virtual Healthcare for you</title>
+
+
+</head>
+<body>
+    <header class="header">
+        <a href="./index.html">
+            <img class="logo" alt="MyLikita logo" src="logo.png" />
+        </a>
+
+        <span class="overlay" id="overlay"></span>
+        <nav class=" main-nav" id="navbar">
+            <ul class="menu main-nav-list">
+                <li><a class="main-nav-link" href="https://mylikitahealth.medium.com/">Blogs</a></li>
+                <li class=" menu-item menu-item-child">
+                    <a href="#" data-toggle="sub-menu">Products<i class="expand"></i></a>
+                    <ul class="sub-menu">
+                        <li class="menu-item"><a href="EHR.html">MyLikita EHR</a></li>
+                        <li class="menu-item"><a href="likitaslis.html">MyLikita LIS</a></li>
+                        <li class="menu-item"><a href="#">Scan RIS</a></li>
+                        <li class="menu-item"><a href="#">PharmaBooks</a></li>
+                    </ul>
+                </li>
+                <li><a class="main-nav-link" href="./about-us.html">About Us</a></li>
+                <li><a class="main-nav-link" href="./feature.html">Features</a></li>
+                <li>
+                    <a class="main-nav-link" href="#cta">Contact us</a>
+                </li>
+                 <li class=" menu-item menu-item-child">
+                    <a href="#" data-toggle="sub-menu" class="main-nav-link nav-cta" style="color: beige; padding-left: 10px; padding-right: 10px;">Register<i class="expand"></i></a>
+                    <ul class="sub-menu" style="padding: 10px;">
+                        <li><a class="main-nav-link" href="https://app.mylikita.clinic/auth" style="padding-bottom: 10px;">Login</a></li>
+                <li><a class="main-nav-link" href="https://app.mylikita.clinic/signup">Sign Up</a></li>
+            
+                    </ul>
+                </li>
+               </ul>
+        </nav>
+
+        <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+    <main>
+        <section class="section-hero">
+            <div class="hero">
+                <div class="hero-text-box">
+                    <h1 class="heading-primary">
+                        Streamlining Lab Processes with MyLikita LIS
+                    </h1>
+                    <p class="hero-description">
+                        Empowering Laboratories, Physicians, and Patients with Real-time Data Integration.
+                    </p>
+                    <a href="#cta" class="btn btn--full margin-right-sm">Get Started</a>
+
+                </div>
+                <div class="hero-img-box">
+
+                    <img src="lab1.JPG" class="hero-img" alt="illustration of virtual healthcare" />
+
+                </div>
+            </div>
+        </section>
+
+        <section class="section-how" id="how">
+            <div class="container">
+
+                <span class="subheading">About LIS</span>
+                <h1 class="heading-tertiary">
+                    What is an LIS and who needs it?
+                </h1>
+                <p class="hero-description">
+                    A Laboratory Information System (LIS) is a software solution designed to manage and automate the operations within a medical laboratory. It facilitates the tracking of laboratory processes, including patient test orders, sample management, result reporting, and the overall workflow. An LIS helps ensure accurate and  timely processing of lab tests, improves the efficiency of laboratory staff, and integrates lab data with other healthcare systems, enhancing communication between labs, healthcare providers, and patients.
+                </p>
+                <h1 class="heading-tertiary"> Comparing LIS With LIMS: The LIS vs. LIMS Distinction</h1>
+                <p class="hero-description">
+                    Laboratory Information Systems (LIS) and Laboratory Information Management Systems (LIMS) are critical in data management within laboratory settings. While they share similarities, their core functionalities differ. An LIS is specialised for clinical applications, focusing on patient-centric information, whereas a LIMS is tailored to broader laboratory operations including sample management, workflow automation, and quality control in various industries beyond healthcare.
+                </br>
+                    Choosing between an LIS and a LIMS depends on the laboratory's primary function. Clinical environments typically benefit more from an LIS, while research and industrial labs may find a LIMS more aligned with their operational needs.
+                </p>
+                <h1 class="heading-tertiary"> The Core functionalities of an LIS</h1>
+                <p class="hero-description">At its core, an LIS is designed to facilitate data entry, storage, retrieval, and management of laboratory test data and associated patient information. This includes sample tracking,data management, reporting, specimen processing, and communication with other healthcare IT systems. Streamlining workflows with key LIS features from enhancing operational efficiency and reducing manual errors to strengthening regulatory compliance and data security, the key features of an LIS are multifaceted: </p>
+            </div>
+
+            <div class="container grid grid--2-cols grid--center-v">
+                <!-- STEP 01 -->
+                <div class="step-text-box">
+                    <p class="step-number">01</p>
+                    <h3 class="heading-tertiary">
+                        Electronic Data Exchange (EDI)  in LIS 
+                    </h3>
+                    <p class="step-description">
+                        EDI in LIS allows seamless transfer of patient data, test orders, and results between the lab and hospital systems (HIS, EHR). It reduces manual errors and improves efficiency using standardized protocols like HL7 or FHIR for real-time data exchange.
+                    </p>
+                </div>
+
+                <div class="step-img-box">
+                    <img src="tab2.JPG" class="step-img" alt="iPhone app
+            preferences selection screen" />
+                </div>
+
+                <!-- STEP 02 -->
+                <div class="step-img-box">
+                    <img src="tab4.JPG" class="step-img" alt="iPhone app
+            meal approving plan screen" />
+                </div>
+                <div class="step-text-box">
+                    <p class="step-number">02</p>
+                    <h3 class="heading-tertiary">Organized experimental data for expedited research</h3>
+                    <p class="step-description">
+                        LIS organizes experimental data for easy access and analysis, streamlining research workflows. By centralizing data, it enables faster retrieval, comparison, and interpretation. This organization accelerates research timelines and improves data accuracy.
+                    </p>
+                </div>
+
+                <!-- STEP 03 -->
+                <div class="step-text-box">
+                    <p class="step-number">03</p>
+                    <h3 class="heading-tertiary">Timely access to patient data for personalized care</h3>
+                    <p class="step-description">
+
+                        LIS provides timely access to patient data, enabling healthcare providers to make informed, personalized treatment decisions. Real-time data availability enhances clinical decision-making. This improves patient outcomes and care efficiency.
+                    </p>
+                </div>
+                <div class="step-img-box">
+                    <img src="tab7.JPG" class="step-img" alt="iPhone app
+            delivery screen" />
+                </div>
+            </div>
+        </section>
+          <section class="section services" id="features">
+            <div class="container">
+                <span class="subheading">Essential Components Used In LIS</span>
+            </div>
+            <div class="container grid grid--3-cols">
+
+                <div class="features">
+                  <img src="th.jpg" alt="hematology" class="hema">
+                    <p class="feature-title"> Hematology </p>
+                    <p class="feature-text">
+                        In LIS, hematology modules manage and process blood-related tests, such as complete blood counts (CBC), coagulation studies, and blood typing. The system automates data entry, analysis, and result reporting, ensuring accuracy and efficiency. It integrates with laboratory instruments to directly capture test results and reduces human error. Timely and accurate hematology data enables better patient diagnosis and treatment planning.</p>
+                </div>
+                  <div class="features">
+                    <img src="clinical.jpg" alt="clinical chemistry" class="hema">
+                    <p class="feature-title"> Clinical Chemistry</p>
+                    <p class="feature-text">
+                        In LIS, clinical chemistry modules handle tests related to blood glucose, electrolytes, enzymes, and metabolic panels. The system automates result capture from analyzers, ensuring accurate data processing and reporting. It reduces manual entry errors and facilitates quick access to test results. This enables clinicians to make informed decisions for diagnosing and managing metabolic disorders.
+                     </div>
+
+                <div class="features">
+                    <img src="bb2.jpg" alt="blood banking" class="hema">
+                    <p class="feature-title">Blood Banking</p>
+                    <p class="feature-text">
+                        LIS in blood banking manages blood donor and recipient data, blood typing, crossmatching, and inventory tracking. It ensures accurate record-keeping and compatibility testing between donors and recipients. The system tracks blood products in real-time, minimizing errors in transfusion practices. This improves patient safety and ensures the availability of matched blood for transfusions.
+                    </p>    
+                </div>
+                <div class="features">
+
+                    <img src="immu.jpg" class="hema" alt="immunology">
+
+                    <p class="feature-title">Immunology/ Serology</p>
+                    <p class="feature-text"> In immunology and serology, LIS tracks tests related to antibodies, antigens, and infectious diseases. It automates the process of result entry, analysis, and reporting, helping to quickly identify immune responses or infections. By integrating with diagnostic instruments, the LIS ensures real-time data accuracy and reduces manual errors. This supports early diagnosis and personalized treatment for immune-related conditions and infections.
+                    </p>
+                </div>
+            <div class="features">
+
+                 <img src="micro2.jpg" class="hema" alt="clinical microscopy"> 
+
+                    <p class="feature-title">Clinical Microscopy</p>
+                    <p class="feature-text">LIS supports clinical microscopy by managing data from microscopic examinations, such as urine analysis, microbiological cultures, and cytology. The system records test results, ensuring accurate and efficient reporting. It helps track specimen details and integrates findings with patient records, facilitating quick diagnosis. This ensures high-quality, reliable data for clinicians in areas like microbiology and pathology.</p>
+                </div>
+                <div class="features">
+
+                    <img src="med1.jpg" class="hema" alt="medical imaging"> 
+
+                    <p class="feature-title">Medical Imaging</p>
+                    <p class="feature-text">In LIS, medical imaging modules manage data from diagnostic tools like MRI, X-rays, and CT scans. The system integrates image data with patient records, ensuring accurate and timely access to imaging results. It supports diagnostic decision-making by providing a comprehensive view of a patient’s condition. This integration enhances patient care by combining imaging results with lab test data for a holistic approach. </p>
+                </div>
+            </div>
+
+
+                <!-- <section class="section-cta" id="cta">
+                    <div class="container">
+                        <div class="cta">
+                            <div class="cta-text-box">
+                                <span class="subheading">Contact us</span>
+                                <h2 class="heading-secondary">We are glad to hear from you</h2>
+                                <p class="cta-text">
+                                    Reach out to us to learn more about our promotions, offers, pricing and lots more.
+                                </p>
+        
+                                <form class="cta-form" name="sign-up">
+                                    <div>
+                                        <label for="full-name">Full Name</label>
+                                        <input id="full-name" type="text" placeholder="Tunde Thomas" name="full-name" required />
+                                    </div>
+        
+                                    <div>
+                                        <label for="email">Email address</label>
+                                        <input id="email" type="email" placeholder="me@example.com" name="email" required />
+                                    </div>
+        
+                                    <div>
+                                        <label for="select-where">Message</label>
+                                        <textarea id="message" type="message" placeholder="Send us a message" name="message" required></textarea>
+        
+                                    </div>
+        
+                                    <button class="btn btn--form btn--white">Submit</button>
+                                </form>
+                            </div>
+                            <div class="cta-img-box" role="img" aria-label="Woman"></div>
+                        </div>
+                    </div>
+                </section> -->
+<footer id="footer">
+    <div class="container ">
+        <div class="grid grid--footer ">
+            <div class="logo-col">
+                <a href="#logo" class="footer-logo ">
+                    <img class="logo" id="logos" alt="MyLikita logo " src="img/logo.png" />
+                </a>
+                <p class="copyright ">
+                    Hospital Management Solution and Healthcare Service Delivery for you
+                </p>
+
+                <div class="bottomm btn-app ">
+                    <a href="# " class="btn-app-1"><img src="img/download-app.svg" alt="App Store Button "></a>
+                    <a href='https://play.google.com/store/apps/details?id=com.inventria.bits&hl=en&gl=US&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1' class="btn-app-2"><img class="botn" src="img/get-it-on-google-play.png" alt="Play Store Button "></a>
+                </div>
+                <div class="enter final ">Copyright &copy; <span class="year ">2022</span> MyLikita &mdash; All rights reserved.</div>
+            </div>
+
+            <!-- <nav class="address-col center ">
+                <p class="footer-heading " href="index.html ">Home </p>
+                <ul class="footer-nav ">
+                    <li><a class="footer-link " href="aboutus.html ">About us </a></li>
+                    <li><a class="footer-link " href="services.html ">Services</a></li>
+                    <li><a class="footer-link " href="products.html ">products</a></li>
+                    <li><a class="footer-link " href="contact.html ">Contact us</a></li>
+                </ul>
+            </nav> -->
+            <div class="address-col">
+                <p class="footer-heading ">Address</p>
+                <address class="contacts ">
+            <p class="address ">
+                Office: Floor 1, African Alliance Building, No 1 Sani Abacha Way, Kano, Nigeria
+            </p>
+            <address class="contacts ">
+              <br/>
+                <p> 
+
+                  <a class="footer-link " href=" ">Phone: +2349039892072</a><br />
+                  <a class="footer-link " href=" "> Email: support@mylikita.clinic</a>
+                </p>
+              </address>
+
+                </address>
+            </div>
+            <div class="address-col">
+                <p class="footer-heading ">Contact us</p>
+
+                <div>
+
+
+                    <ul class="social-links">
+                        <li>
+                            <a class="footer-link" href="#">
+                                <ion-icon class="social-icon " name="logo-instagram"></ion-icon>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="footer-link" href="#" target="_blank">
+                                <ion-icon class="social-icon " name="logo-facebook"></ion-icon>
+                            </a>
+                        </li>
+                        <!-- <li>
+                            <a class="footer-link " href="# ">
+                                <ion-icon class="social-icon " name="logo-twitter"></ion-icon>
+                            </a>
+                        </li> -->
+                        <li>
+                            <a class="footer-link" href="#" target="_blank">
+                                <ion-icon class="social-icon " name="logo-linkedin"></ion-icon>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="footer-link" href="#" target="_blank">
+                                <ion-icon class="social-icon " name="logo-youtube"></ion-icon>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul><br/>Socials: @MyLikita.clinic</ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
