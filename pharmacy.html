@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    
+    <link rel="stylesheet" href="pharmacy.css" />
+    <!-- Swiper CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
+
+    <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"></script>
+
+    <script defer src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
+    <script defer src="js/script.js"></script>
+    <script defer src="./assets/js/main.js"></script>
+
+    <title>pharmacy</title>
+</head>
+
+<body>
+    <header class="header">
+        <a href="./index.html">
+            <img class="logo" alt="MyLikita logo" src="./img/logo.png" />
+        </a>
+<!-- rtyuhurtgy/ -->
+ <!-- drtfgyhujiklgyh -->
+        <span class="overlay" id="overlay"></span>
+        <nav class=" main-nav" id="navbar">
+            <ul class="menu main-nav-list">
+                <li><a class="main-nav-link" href="https://mylikitahealth.medium.com/">Blogs</a></li>
+                <li class=" menu-item menu-item-child">
+                    <a href="#" data-toggle="sub-menu">Products<i class="expand"></i></a>
+                    <ul class="sub-menu">
+                        <li class="menu-item"><a href="./EHR.html">EHR</a></li>
+                        <li class="menu-item"><a href="./pharmacy.html">Pharmacy</a></li>
+                        <li class="menu-item"><a href="https://app.mylikita.clinic/signup/pharmacy">For Laboratory</a></li>
+                        <li class="menu-item"><a href="https://app.mylikita.clinic/signup/pharmacy">Telemedicine</a></li>
+                    </ul>
+                </li>
+                <li><a class="main-nav-link" href="./about-us.html">About Us</a></li>
+                <li><a class="main-nav-link" href="./feature.html">Features</a></li>
+                <li>
+                    <a class="main-nav-link" href="#cta">Contact us</a>
+                </li>
+                 <li class=" menu-item menu-item-child">
+                    <a href="#" data-toggle="sub-menu" class="main-nav-link nav-cta" style="color: beige; padding-left: 10px; padding-right: 10px;">Register<i class="expand"></i></a>
+                    <ul class="sub-menu" style="padding: 10px;">
+                        <li><a class="main-nav-link" href="https://app.mylikita.clinic/auth" style="padding-bottom: 10px;">Login</a></li>
+                <li><a class="main-nav-link" href="https://app.mylikita.clinic/signup">Sign Up</a></li>
+            
+                    </ul>
+                </li>
+               </ul>
+        </nav>
+
+        <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+
+
+        <section class="section-hero">
+            <div class="hero">
+                <div class="hero-text-box">
+                    <h1 class="heading-primary">
+                       Manage and track your Phamacy inventory at your fingertips
+                
+
+                    </h1>
+                      <a href="./img/Select a Date & Time - Calendly.html" style="width: 40%; height: 55px; padding: 10px; text-align: center; margin-top: 2%;"  class="appointment-btn scrollto a3-button2" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/8790fahadado/pharmabooks_demo'});return false;">Schedule a Demo</a>
+  
+                     
+                      
+                    
+
+                </div>
+                <div class="hero-img-box">
+
+                      <img src="./img/pharmacy5.jpg" class="hero-img" alt="illustration of virtual healthcare" />  
+
+                </div>
+            </div>
+        </section>
+               <!-- ======= Why Us Section ======= -->
+    <section id="why-us" class="why-us">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-4 d-flex align-items-stretch">
+            <div class="content">
+              <h3>Why Choose PharmBooks?</h3>
+              <p style="font-size: 16px;line-height: 1.3; padding: 10px;">
+             We ’re all about great retail and empowering businesses to
+             grow with our omnichannel solutions. Most importantly, we
+              know that when users are happy with their experience with
+              your brand, we’ve done our job correctly. We’re constantly
+              innovating and iterating to make sure the solutions and
+              services we deliver exceed your expectations.
+            </p>
+              <div class="text-center">
+                <a href="#" class="more-btn" style="font-size: 17px;">Learn More <i class="bx bx-chevron-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-8 d-flex align-items-stretch">
+            <div class="icon-boxes d-flex flex-column justify-content-center">
+              <div class="row">
+                <div class="col-xl-4 d-flex align-items-stretch">
+                  <div class="icon-box mt-4 mt-xl-0">
+                    <i class="bx bx-receipt"></i>
+                    <h4 style="color: black;">Easy Inventory Management</h4>
+                    <p style="font-size: 16px;line-height: 1.3; padding: 10px;">PharmaBooks aids with simple inventory management by simplifying the inventory monitoring procedure and lowering mistakes brought on by manual inventory tracking.</p>
+                  </div>
+                </div>
+                <div class="col-xl-4 d-flex align-items-stretch">
+                  <div class="icon-box mt-4 mt-xl-0">
+                    <i class="bx bx-cube-alt"></i>
+                    <h4 style="color: black;">Safe and Secured</h4>
+                    <p style="font-size: 16px;line-height: 1.3; padding: 10px;">Pharmabooks provides a safe and secure inventory tracking process, ensuring regulatory compliance for controlled substances and preventing inventory loss due to theft or human error.</p>
+                  </div>
+                </div>
+                <div class="col-xl-4 d-flex align-items-stretch">
+                  <div class="icon-box mt-4 mt-xl-0">
+                    <i class="bx bx-images"></i>
+                    <h4 style="color: black;">24/7 Help Support</h4>
+                    <p style="font-size: 16px;line-height: 1.3; padding: 10px;">PharmaBooks often comes with 24/7 help support, providing pharmacies with assistance and troubleshooting whenever needed to ensure smooth inventory management.</p>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End .content-->
+          </div>
+        </div>
+
+      </div>
+    </section>
+                  
+    
+    
+    
+    
+              <!-- End Why Us Section -->
+
+
+                <!-- STEP 02 -->
+                <div class="step-img-box">
+                    <!-- <img src="" class="step-img" alt="iPhone app -->
+         <div class="row"> 
+          <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch position-relative">
+            <!-- <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox play-btn mb-4"></a> -->
+            <img src="./img/about.png" class="about_img"/>
+          </div>
+
+          <div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
+            <div class="section-title">
+              <h2>About PharmaBooks</h2>
+              <!-- <p>From our clients</p> -->
+            </div>
+               <div class="row"> 
+                <div class="col-lg-2"></div>
+                <div class="col-lg-8 text-center">
+                 <p style="font-size: 1.7rem;line-height: 1.3;"> We’re all about great retail and empowering businesses to
+                  grow with our omnichannel solutions. Most importantly, we
+                  know that when users are happy with their experience with
+                  your brand, we’ve done our job correctly. We’re constantly
+                  innovating and iterating to make sure the solutions and
+                  services we deliver exceed your expectations.</p>
+                  <div class="" style="margin-top: 50px;">
+                    <a href="#about" class="appointment-btn scrollto"><span class="d-none d-md-inline" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/8790fahadado/pharmabooks-demo'});return false;">Schedule a</span> Demo</a>
+                  </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+                </div>
+                
+                
+
+                <!-- STEP 03 -->
+                  <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Key Features</h2>
+          <!-- <p>From our clients</p> -->
+        </div>
+
+        <div class="row">
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="icon-box">
+              <div class="icon"><img src="./img/dashboard.svg" class="features_image"/></div>
+              <h4><a href="">Dashboard</a></h4>
+              <!-- <p>Hanan Pharmacetical NIG LTD</p> -->
+              <p>
+                PharmaBooks offers a user-friendly dashboard that provides pharmacies with real-time data on inventory levels, expirations, and restocking needs, enabling them to make informed decisions about their inventory management.
+              </p>
+            </div>
+          </div>
+
+          
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+            <div class="icon-box">
+              <div class="icon"><img src="./img/bincard.svg" class="features_image"/></div>
+              <h4><a href="">Bin Card</a></h4>
+              <!-- <p>Ma'een Pharmacetical NIG LTD</p> -->
+              <p>
+                Pharmabooks e allows pharmacies to track inventory levels at a granular level by providing real-time information on the exact quantity of each product in stock, enabling efficient and accurate inventory management.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+            <div class="icon-box">
+              <div class="icon"><img src="./img/notification.svg" class="features_image"/></div>
+         <h4><a href="">Notifications</a></h4>
+              <!-- <p>Hanan Pharmacetical NIG LTD</p> -->
+              <p>
+                Pharmabooks sends automatic notifications when inventory levels reach a certain threshold, enabling pharmacies to restock products in a timely manner and prevent stockouts, ensuring a seamless inventory management process.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+            <div class="icon-box">
+              <div class="icon"><img src="./img/search.svg" class="features_image"/></div>
+         <h4><a href="">Drug Search</a></h4>
+              <!-- <p>Hanan Pharmacetical NIG LTD</p> -->
+              <p>
+               PharmaBooks allows pharmacies to quickly locate specific products in their inventory, saving time and improving efficiency in inventory management.
+              </p>
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+            
+<!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+  <!-- If we need scrollbar -->
+  <!-- <div class="swiper-scrollbar"></div> -->
+</div>
+
+          <section id="testimonials" class="testimonials">
+      <div class="container">
+        <div class="section-title">
+          <h2>Testimonials</h2>
+          <!-- <p>From our clients</p> -->
+        </div>
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="./img/remedix.jpeg" class="testimonial-img" alt="" />
+                  <h3>Rmedix Pharmacy</h3>
+                  <h4>CEO &amp; Founder</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left col-md-6"></i>
+        
+                   <p style="font-size: 1.7rem;line-height: 1.4;">The PharmBook System has made a tremendous difference in the way we
+                    do business. We’re able to solve both internal and external issues
+                    very quickly due to electronic signature capture. The inventory
+                    control feature is a fantastic tool. We never run out of product,
+                    and we can see clearly how a certain area of the store is doing and
+                    respond accordingly. Our inventory system had no customized features
+                    for pharmacies. Plus, it was from a big corporation; we felt like a
+                    tiny blip on their screen. The PharmBook crew is friendly and timely
+                    in working with us to solve any issues that arise. And they are very
+                    responsive when we have feedback for them about the software.
+                    PharmBook has helped us to streamline things and to be more
+                    efficient. For us, greater efficiency means greater profits.</p>
+        
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img
+                    src="./img/rashmedix.png"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>Rashmedix Pharmacy</h3>
+                  <h4>CEO & Founder</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left col-md-6"></i>
+        
+                   <p style="font-size: 1.7rem;line-height: 1.4;"> Rashmedix Pharmacy couldn’t run its business as successfully without
+                    PharmBook. We use the system to manage our entire inventory. If
+                    products aren’t selling, we know it, and can move them out and
+                    something else in. With PharmBook, we have total control over
+                    everything in the store from cash management and employee
+                    accountability to merchandising and promotions. The deep knowledge
+                    the system provides enables us to make informed decisions quickly,
+                    and to be more profitable as a result. The system pays for itself in
+                    the profits gained. The support team at PharmBook is made up of
+                    incredibly bright individuals with great people skills.
+                    Unequivocally, the PharmBook service personnel listen, resolve
+                    issues, and best of all – they can talk to any one of our employees.
+                    With an PharmBook system, you will immediately have the tools with
+                    which to make smarter, informed business decisions.</p>
+        
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img
+                    src="./img/rashmedix.png"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>Rashmedix Pharmacy</h3>
+                  <h4>CEO & Founder</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left col-md-6"></i>
+        
+                   <p style="font-size: 1.7rem; line-height: 1.4;">Rashmedix Pharmacy couldn’t run its business as successfully without
+                    PharmBook. We use the system to manage our entire inventory. If
+                    products aren’t selling, we know it, and can move them out and
+                    something else in. With PharmBook, we have total control over
+                    everything in the store from cash management and employee
+                    accountability to merchandising and promotions. The deep knowledge
+                    the system provides enables us to make informed decisions quickly,
+                    and to be more profitable as a result. The system pays for itself in
+                    the profits gained. The support team at PharmBook is made up of
+                    incredibly bright individuals with great people skills.
+                    Unequivocally, the PharmBook service personnel listen, resolve
+                    issues, and best of all – they can talk to any one of our employees.
+                    With an PharmBook system, you will immediately have the tools with
+                    which to make smarter, informed business decisions.</p>
+        
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+            </div>
+            <!-- End testimonial item -->
+
+
+      </div> 
+    </section><!-- End Testimonials Section -->
+
+
+        <footer id="footer">
+            <div class="container ">
+                <div class="grid grid--footer ">
+                    <div class="logo-col">
+                        <a href="#logo" class="footer-logo ">
+                            <img class="logo" id="logos" alt="MyLikita logo " src="./img/logo.png" />
+                        </a>
+                        <p class="copyright ">
+                            Hospital Management Solution and Healthcare Service Delivery for you
+                        </p>
+
+                        <div class="bottomm btn-app ">
+                            <a href="# " class="btn-app-1"><img src="./img/download-app.svg" alt="App Store Button "></a>
+                            <a href='https://play.google.com/store/apps/details?id=com.inventria.bits&hl=en&gl=US&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1' class="btn-app-2"><img class="botn" src="./img/get-it-on-google-play.png" alt="Play Store Button "></a>
+                        </div>
+                        <div class="enter final ">Copyright &copy; <span class="year ">2022</span> MyLikita &mdash; All rights reserved.</div>
+                    </div>
+
+                    <div class="address-col">
+                        <p class="footer-heading ">Address</p>
+                        <address class="contacts ">
+                    <p class="address ">
+                        Office: Floor 1, African Alliance Building, No 1 Sani Abacha Way, Kano, Nigeria
+                    </p>
+                    <address class="contacts ">
+                      <br/>
+                        <p> 
+   
+                          <a class="footer-link " href=" ">Phone: +2349039892072</a><br />
+                          <a class="footer-link " href=" "> Email: support@mylikita.clinic</a>
+                        </p>
+                      </address>
+
+                        </address>
+                    </div>
+                    <div class="address-col">
+                        <p class="footer-heading ">Contact us</p>
+
+                        <div>
+
+
+                            <ul class="social-links">
+                                <li>
+                                    <a class="footer-link" href="#">
+                                        <ion-icon class="social-icon " name="logo-instagram"></ion-icon>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="footer-link" href="#" target="_blank">
+                                        <ion-icon class="social-icon " name="logo-facebook"></ion-icon>
+                                    </a>
+                                </li>
+                                 <li>
+                                    <a class="footer-link " href="# ">
+                                        <ion-icon class="social-icon " name="logo-twitter"></ion-icon>
+                                    </a>
+                                </li> 
+                                <li>
+                                    <a class="footer-link" href="#" target="_blank">
+                                        <ion-icon class="social-icon " name="logo-linkedin"></ion-icon>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="footer-link" href="#" target="_blank">
+                                        <ion-icon class="social-icon " name="logo-youtube"></ion-icon>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul><br/>Socials: @MyLikita.clinic</ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script>
+  new Swiper('.testimonials-slider', {
+    speed: 600,
+    loop: true,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false
+    },
+    slidesPerView: 'auto',
+    pagination: {
+      el: '.swiper-pagination',
+      type: 'bullets',
+      clickable: true
+    },
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+        spaceBetween: 20
+      },
+
+      1200: {
+        slidesPerView: 2,
+        spaceBetween: 20
+      }
+    }
+  });
+</script>
+</body>
+
+</html>
